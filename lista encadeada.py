@@ -40,3 +40,6 @@ while True:
     lista.adicionar (valor)
 
 lista.mostrar()
+
+# ---------------------------------------------------------------------------------------------------------------------#
+# uma lista encadeada é uma representação de sequência de objetos, todos do mesmo tipo, na memoria RAM do computador. cada elemento da sequÊncia é armazenado em uma célula da lista: o primeiro elemento na premeira celula, o segundo na segunda, e assim por deiante.
