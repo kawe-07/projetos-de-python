@@ -56,6 +56,6 @@ Este repositório está em constante desenvolvimento. Novos projetos e melhorias
 
 ---
 
-**Desenvolvido por [Kawe Lucas](https://github.com/kawe-07)**
+**Desenvolvido por [Kaue Lucas](https://github.com/kawe-07)**
 
 *Aprendendo, praticando e evoluindo um projeto de cada vez.* 💻
