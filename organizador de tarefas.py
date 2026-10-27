@@ -17,19 +17,20 @@ while True:
     if ( opção >= 1 and opção <= 4):
 
       if (opção == 1):
-            tarefa = input("digite a sua tarefa: ")
-            lista_de_tarefas.append(tarefa)
+            tarefa = input("digite a sua tarefa: ").strip()
+
+            if(tarefa == ""):
+                 print("nenhuma tarefa foi adicionada!")
+            else:
+                  lista_de_tarefas.append(tarefa)
 
       elif (opção == 2):
-            
             for indice, tarefas in enumerate(lista_de_tarefas):
                   print(f"posição {indice}: {tarefas}")
 
       elif (opção == 3):
-
             for elemento in lista_de_tarefas:
                   print(f"São este os elementos da lista: {elemento}")
-
             remover = input("digite a tarefa que deseja retirar: ")
 
             if (remover in lista_de_tarefas):
@@ -38,11 +39,10 @@ while True:
                   print("este elemento não esta na lista!")
 
       elif (opção == 4):  
-
             break
+
     else:
          print("está naão é uma opção valida digite um numero de 1 a 4")
-
+         
 for elemento in lista_de_tarefas:
-
       print(f"Esta é sua lista de tarefas: {elemento}")   
